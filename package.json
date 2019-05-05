@@ -12,8 +12,14 @@
     }
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "16.8.3",
-    "react-native": "0.59.5"
+    "react-native": "0.59.5",
+    "react-native-maps": "^0.24.2",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2",
+    "styled-components": "^4.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
@@ -29,12 +35,16 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-native": "^3.7.0",
     "husky": "^2.2.0",
     "jest": "^24.7.1",
     "metro-react-native-babel-preset": "^0.54.0",
     "prettier": "^1.17.0",
     "pretty-quick": "^1.10.0",
-    "react-test-renderer": "16.8.3"
+    "react-test-renderer": "16.8.3",
+    "reactotron-react-native": "^3.4.0",
+    "reactotron-redux": "^3.1.0",
+    "reactotron-redux-saga": "^4.2.2"
   },
   "jest": {
     "preset": "react-native"
